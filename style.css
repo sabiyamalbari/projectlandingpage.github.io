@@ -1,0 +1,108 @@
+#header{
+  display: flex;
+  background-color:white;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  margin: 0px 0px 0px 0px;
+  top:0;
+}
+
+}
+#header-img{
+  width:30%;
+}
+nav ul{
+  margin: 50px 0px 0px 420px;
+  padding:0;
+  display: flex;
+  width: 100%
+}
+
+nav li{
+  display: flex;
+  #padding: 35px 30px 0px 20px;
+  margin: 0px 0px 0px 50px;
+  font-family: 'Spectral SC', serif;
+ 
+  
+}
+li a{
+  text-decoration: none;
+   font-size: 55px;
+  color: #848484;
+}
+form h3{
+  font-family: 'Spectral', serif;
+  font-size: 50px;
+  text-align: center;
+  color: #848484
+}
+#form{
+  #display: inline-block;
+  margin: 0 auto;
+  padding: auto;
+  text-align: center;
+  
+}
+#email{
+  padding: 10px 20px;
+  border-radius: 2%;
+ 
+}
+#submit{
+  display: block;
+  padding:8px 15px;
+  margin: 15px auto;
+  font-family: 'Spectral',serif;
+  color: white;
+  background-color: #848484;
+}
+.shop{
+  display: flex;
+  margin: 0px 40px 10px 100px;
+}
+.image{
+  width: 500px;
+  height: 800px;
+  padding: 20px;
+}
+.details p{
+  font-family: 'Spectral' serif;
+  color: #848484;
+  font-weight: bold;
+  margin: auto;
+  padding:10px;
+  text-align: center;
+  font-size: 40px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#video{
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+}
+#footer{
+  display: box;
+  margin: 20px 40px;
+  font-family: 'Spectral',serif;
+  font-size: 25px;
+}
+#about h3{
+  font-family: 'Spectral',serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media (max-width: 600px){
+  li a{
+    font-size: 30px;
+  }
+  #header{
+    float: right;
+  }
+}
